@@ -3,14 +3,13 @@
 let form = document.querySelector('#form');
 
 var firebaseConfig = {
-    apiKey: "AIzaSyCVwfqCGwEIf-Rvs7GOGjGk2G5BGuYYMuo",
-    authDomain: "all-users-data.firebaseapp.com",
-    databaseURL: "https://all-users-data-default-rtdb.firebaseio.com",
-    projectId: "all-users-data",
-    storageBucket: "all-users-data.appspot.com",
-    messagingSenderId: "627793801794",
-    appId: "1:627793801794:web:18687880ad71cec4a8b3db",
-    measurementId: "G-EHR0TSSH1W"
+    apiKey: "AIzaSyDpCywgaXPSQ1e2WmBu_sWbFfUgIVfcrgE",
+    authDomain: "petitionwritingweb.firebaseapp.com",
+    projectId: "petitionwritingweb",
+    storageBucket: "petitionwritingweb.firebasestorage.app",
+    messagingSenderId: "775038277107",
+    appId: "1:775038277107:web:46c51a00ed92bafb13ae86",
+    measurementId: "G-CEESZLSKLF"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
